@@ -67,3 +67,20 @@
 * 3> It performs well when data has mixture numerical and categorical features or just numeric features.**
 
 * 4> When the model performance metrics are to be considered.**
+ 
+
+## XGBoost
+### Pros
+1. Less feature engineering required (No need for scaling, normalizing data, can also handle missing values well)
+2. Feature importance can be found out(it output importance of each feature, can be used for feature selection)
+3. Fast to interpret
+4. Outliers have minimal impact.
+5. Handles large sized datasets well.
+6. Good Execution speed
+7. Good model performance (wins most of the Kaggle competitions)
+8. Less prone to overfitting
+
+### Cons
+1. Difficult interpretation , visualization tough
+2. Overfitting possible if parameters not tuned proper
+
